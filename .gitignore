@@ -1,0 +1,17 @@
+# General / OS files
+.DS_Store
+*.log
+
+# --- Secrets ---
+# Ignore all .env files everywhere in the project
+**/.env
+
+# --- Backend (Python) ---
+backend/venv/
+backend/__pycache__/
+backend/chroma_db/
+
+# --- Frontend (Vite/React) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
