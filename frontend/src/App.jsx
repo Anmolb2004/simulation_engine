@@ -11,7 +11,7 @@ import ChatModal from './components/ChatModal';
 // API_URL should be relative for deployment, but for local testing,
 // you might need the full URL if you encounter CORS issues.
 // We'll use the relative path as it's the professional standard for deployment.
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = '/api';
 
 const THERAPIST_VERSIONS = [
   { id: 'v1_empathetic', name: 'V1 - Empathetic (GPT-4o)' },
